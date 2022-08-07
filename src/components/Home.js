@@ -14,7 +14,7 @@ export default function Home() {
     {products.map((item, index) => (
       <div key="index">
         <h1>{item.name}</h1>
-        <button onclick=((e)=> {navigate(`product/${item._id}`})> Product Details </button>
+        <button onclick=((e)=> {navigate(`details/${item._id}`})> Product Details </button>
       </div>
     ))}
     </>
